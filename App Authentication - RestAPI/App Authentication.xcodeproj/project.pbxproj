@@ -1,0 +1,305 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2802F9431741ACAC00B0EACE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2802F9421741ACAC00B0EACE /* UIKit.framework */; };
+		2802F9451741ACAC00B0EACE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2802F9441741ACAC00B0EACE /* Foundation.framework */; };
+		2802F9471741ACAC00B0EACE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2802F9461741ACAC00B0EACE /* CoreGraphics.framework */; };
+		2802F94D1741ACAC00B0EACE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2802F94B1741ACAC00B0EACE /* InfoPlist.strings */; };
+		2802F94F1741ACAC00B0EACE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2802F94E1741ACAC00B0EACE /* main.m */; };
+		2802F9531741ACAC00B0EACE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2802F9521741ACAC00B0EACE /* AppDelegate.m */; };
+		2802F9551741ACAC00B0EACE /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 2802F9541741ACAC00B0EACE /* Default.png */; };
+		2802F9571741ACAC00B0EACE /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2802F9561741ACAC00B0EACE /* Default@2x.png */; };
+		2802F9591741ACAC00B0EACE /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2802F9581741ACAC00B0EACE /* Default-568h@2x.png */; };
+		2802F95C1741ACAC00B0EACE /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2802F95A1741ACAC00B0EACE /* MainStoryboard.storyboard */; };
+		2802F95F1741ACAC00B0EACE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2802F95E1741ACAC00B0EACE /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2802F93F1741ACAC00B0EACE /* App Authentication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "App Authentication.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2802F9421741ACAC00B0EACE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2802F9441741ACAC00B0EACE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2802F9461741ACAC00B0EACE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2802F94A1741ACAC00B0EACE /* App Authentication-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "App Authentication-Info.plist"; sourceTree = "<group>"; };
+		2802F94C1741ACAC00B0EACE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2802F94E1741ACAC00B0EACE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2802F9501741ACAC00B0EACE /* App Authentication-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "App Authentication-Prefix.pch"; sourceTree = "<group>"; };
+		2802F9511741ACAC00B0EACE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2802F9521741ACAC00B0EACE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2802F9541741ACAC00B0EACE /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		2802F9561741ACAC00B0EACE /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		2802F9581741ACAC00B0EACE /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		2802F95B1741ACAC00B0EACE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		2802F95D1741ACAC00B0EACE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2802F95E1741ACAC00B0EACE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2802F93C1741ACAC00B0EACE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2802F9431741ACAC00B0EACE /* UIKit.framework in Frameworks */,
+				2802F9451741ACAC00B0EACE /* Foundation.framework in Frameworks */,
+				2802F9471741ACAC00B0EACE /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2802F9361741ACAC00B0EACE = {
+			isa = PBXGroup;
+			children = (
+				2802F9481741ACAC00B0EACE /* App Authentication */,
+				2802F9411741ACAC00B0EACE /* Frameworks */,
+				2802F9401741ACAC00B0EACE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2802F9401741ACAC00B0EACE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2802F93F1741ACAC00B0EACE /* App Authentication.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2802F9411741ACAC00B0EACE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2802F9421741ACAC00B0EACE /* UIKit.framework */,
+				2802F9441741ACAC00B0EACE /* Foundation.framework */,
+				2802F9461741ACAC00B0EACE /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2802F9481741ACAC00B0EACE /* App Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				2802F9511741ACAC00B0EACE /* AppDelegate.h */,
+				2802F9521741ACAC00B0EACE /* AppDelegate.m */,
+				2802F95A1741ACAC00B0EACE /* MainStoryboard.storyboard */,
+				2802F95D1741ACAC00B0EACE /* ViewController.h */,
+				2802F95E1741ACAC00B0EACE /* ViewController.m */,
+				2802F9491741ACAC00B0EACE /* Supporting Files */,
+			);
+			path = "App Authentication";
+			sourceTree = "<group>";
+		};
+		2802F9491741ACAC00B0EACE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2802F94A1741ACAC00B0EACE /* App Authentication-Info.plist */,
+				2802F94B1741ACAC00B0EACE /* InfoPlist.strings */,
+				2802F94E1741ACAC00B0EACE /* main.m */,
+				2802F9501741ACAC00B0EACE /* App Authentication-Prefix.pch */,
+				2802F9541741ACAC00B0EACE /* Default.png */,
+				2802F9561741ACAC00B0EACE /* Default@2x.png */,
+				2802F9581741ACAC00B0EACE /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2802F93E1741ACAC00B0EACE /* App Authentication */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2802F9621741ACAC00B0EACE /* Build configuration list for PBXNativeTarget "App Authentication" */;
+			buildPhases = (
+				2802F93B1741ACAC00B0EACE /* Sources */,
+				2802F93C1741ACAC00B0EACE /* Frameworks */,
+				2802F93D1741ACAC00B0EACE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "App Authentication";
+			productName = "App Authentication";
+			productReference = 2802F93F1741ACAC00B0EACE /* App Authentication.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2802F9371741ACAC00B0EACE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Proxomo;
+			};
+			buildConfigurationList = 2802F93A1741ACAC00B0EACE /* Build configuration list for PBXProject "App Authentication" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2802F9361741ACAC00B0EACE;
+			productRefGroup = 2802F9401741ACAC00B0EACE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2802F93E1741ACAC00B0EACE /* App Authentication */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2802F93D1741ACAC00B0EACE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2802F94D1741ACAC00B0EACE /* InfoPlist.strings in Resources */,
+				2802F9551741ACAC00B0EACE /* Default.png in Resources */,
+				2802F9571741ACAC00B0EACE /* Default@2x.png in Resources */,
+				2802F9591741ACAC00B0EACE /* Default-568h@2x.png in Resources */,
+				2802F95C1741ACAC00B0EACE /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2802F93B1741ACAC00B0EACE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2802F94F1741ACAC00B0EACE /* main.m in Sources */,
+				2802F9531741ACAC00B0EACE /* AppDelegate.m in Sources */,
+				2802F95F1741ACAC00B0EACE /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2802F94B1741ACAC00B0EACE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2802F94C1741ACAC00B0EACE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2802F95A1741ACAC00B0EACE /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2802F95B1741ACAC00B0EACE /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2802F9601741ACAC00B0EACE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2802F9611741ACAC00B0EACE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2802F9631741ACAC00B0EACE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "App Authentication/App Authentication-Prefix.pch";
+				INFOPLIST_FILE = "App Authentication/App Authentication-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2802F9641741ACAC00B0EACE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "App Authentication/App Authentication-Prefix.pch";
+				INFOPLIST_FILE = "App Authentication/App Authentication-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2802F93A1741ACAC00B0EACE /* Build configuration list for PBXProject "App Authentication" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2802F9601741ACAC00B0EACE /* Debug */,
+				2802F9611741ACAC00B0EACE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2802F9621741ACAC00B0EACE /* Build configuration list for PBXNativeTarget "App Authentication" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2802F9631741ACAC00B0EACE /* Debug */,
+				2802F9641741ACAC00B0EACE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2802F9371741ACAC00B0EACE /* Project object */;
+}
